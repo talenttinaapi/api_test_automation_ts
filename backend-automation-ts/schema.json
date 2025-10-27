@@ -1,0 +1,13 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": { "type": "object" },
+      "cca2": { "type": "string" },
+      "region": { "type": "string" },
+      "languages": { "type": "object" }
+    },
+    "required": ["name", "cca2", "region", "languages"]
+  }
+}
